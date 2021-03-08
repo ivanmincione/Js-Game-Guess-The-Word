@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guess the Word</title>
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <!-- FONTAWESOME -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload ="loadWord()">
+    <div class="main">
+        <h2>Indovina la parola <i class="fas fa-search"></i> </h2>
+        <h3>Guess The Word </h3>
+        <h5>Parole Italiane ed Inglesi</h5>
+        <div id="wrd"></div>
+        <div style="height:30px;"></div>
+        <button id="done" onclick="check()">Done</button>
+        <div class="link">
+            <a href="https://github.com/ivanmincione"><i class="fab fa-github my-link"></i></a>
+            <a href="https://codepen.io/Ivan-Mincione"><i class="fab fa-codepen my-link"></i></a>
+            <a href="https://www.linkedin.com/in/ivan-mincione-612b261a3/"><i class="fab fa-linkedin-in my-link"></i></a>
+        </div>
+    </div>
+
+    <script src="main.js" charset="utf-8"></script>
+    </body>
+</html>
